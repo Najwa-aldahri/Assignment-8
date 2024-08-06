@@ -2,13 +2,14 @@ import 'dataSet.dart';
 import 'model.dart';
 
 void main() {
+  print("\n--------------------> print all user data <-------------------\n");
   printAllData();
-  print("----------> print by name <----------");
+  print("-------------------> print by name <------------------");
   printName("Blankenship");
-  print("----------> print by email <----------");
+  print("------------------> print by email <------------------");
   printEmail("frederickstuart@rocklogic.com");
   printChieldName("Blankenship");
-  print("---------------------------------------");
+  print("-------------------------------------------------------------------");
 }
 
 List<Info> storeInfo = [];

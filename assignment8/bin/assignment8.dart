@@ -25,23 +25,36 @@ void main() {
     }
   }
 
-  // void printEmail(String email) {
-  //   for (var element in listData) {
-  //     Info object1 = Info.fromjson(element);
-  //     storeInfo.add(object1);
-  //   }
-  //   for (var element in storeInfo) {
-  //     if (element.email == email) {
-  //       print(element.tojison());
-  //     }
-  //   }
-  // }
+  void printEmail(String email) {
+    for (var element in listData) {
+      Info object1 = Info.fromjson(element);
+      storeInfo.add(object1);
+    }
+    for (var element in storeInfo) {
+      if (element.email == email) {
+        print(element.tojison());
+      }
+    }
+  }
 
-   printAllData();
+  void printChieldName(String firstName) {
+    for (var element in listData) {
+      Info object1 = Info.fromjson(element);
+      storeInfo.add(object1);
+    }
+    for (var element in storeInfo) {
+      if (element.firstName == firstName) {
+        print(element.children);
+      }
+    }
+  }
+
+  printAllData();
   print("----------> print by name <----------");
   printName("Blankenship");
-  // print("----------> print by email <----------");
-  // printEmail("frederickstuart@rocklogic.com");
+  print("----------> print by email <----------");
+  printEmail("frederickstuart@rocklogic.com");
+  printChieldName("Blankenship");
 // void printAllUsers() {
 //   for (Info user in storeInfo) {
 //     print(jsonEncode(user.toJson()));

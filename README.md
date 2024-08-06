@@ -1,4 +1,12 @@
-repository data is 
+## Assignment 7
+In this assignment i createed functions using json to
+- display all users
+- display one user by first_name
+- display one user by email.
+
+
+
+### Repository data i used is  
 
 ```dart 
 [
@@ -104,26 +112,61 @@ repository data is
 ]
 ```
 
-## Assignment:
+## Key feature:
+1. Usig dart project
+2. “model” file to represent users object
+3. function to display all users, This function should return a JSON data containing all users object.
+4. function to display one user by first_name. This function accept a first_name and return a JSON data.
+5. function to display one user by email. This function should accept an email in parameter and return a JSON data. 
+6. function to display the children of one user. This function should accept a first_name in parameter and return a JSON data. 
 
-In this assignment, you will create functions to display all users, display one user by first_name, display one user by email.
+## Output Screenshot
+- function to display all users
+![image](https://github.com/user-attachments/assets/b45e3be7-0312-49f7-a2cd-908aab39cf5d)
 
-## Requirements:
-1. Create a Dart project
-2. Create a “model” file to represent users object with the required properties.
-3. Implement a function to display all users. This function should return a JSON data containing all users object.
-4. Implement a function to display one user by first_name. This function should accept a first_name in parameter and return a JSON data containing the user object with the matching first_name.
-5. Implement a function to display one user by email. This function should accept an email in parameter and return a JSON data containing the user object with the matching email.
+- function to display one user by first_name
+![image](https://github.com/user-attachments/assets/993c3b8e-89f3-4241-b0c2-c28ac2f5ccd3)
 
-## Evaluation Criteria:
-The assignmen will be evaluated based on the following criteria:
-1. Completion: The extent to which the assignment meets all the minimum requirements, including the extra credit ideas if implemented.
-2. Quality: The overall quality of the project, including the organization, and ease of maintenance. Well-structured and readable code will be favorably evaluated.
+- function to display one user by email.
+![image](https://github.com/user-attachments/assets/5546f34a-fcb1-443e-a521-e7f5fd5432d5)
 
-## Bonus
-Implement a function to display the children of one user. This function should accept a first_name in parameter and return a JSON data containing the children object with the matching first_name.
+- function to display the children of one user.
+![image](https://github.com/user-attachments/assets/becf05d2-dd70-4f79-b1ac-7a241dcacb08)
 
-## Submission Details:
-Deadline: 7th August 2024
-Submission Format: Provide your Dart code file(s) along with a README file explaining your implementation.
-Good luck, and happy coding!
+## How To Use
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Visual Studio Code] 
+
+```bash
+# Clone this repository
+$ git clone https: url
+
+# Go into the repository
+$ cd repo-name
+
+# Open project in vs
+$ code .
+
+# Run the project 
+$ dart run
+```
+
+## Contributing
+#### I would be happy to have your ideas to improving the project. Please feel free to do so.
+```bash
+# Fork the project
+
+# Create your feature branch
+$ git checkout -b branch-name
+
+# Commit your changes
+$ git commit -m 'Add some commit'
+
+# Push to the branch
+$ git push
+
+# Open a Pull Request
+
+```
+
+
+Thank you for your reading ❤️
